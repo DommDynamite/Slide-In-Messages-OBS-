@@ -30,7 +30,7 @@ $(document).ready(function(){
         if (pos == 100) {
           clearInterval(id);            // At this point the animation is complete, clear the id so it is clean for the next message to run.
           sleep(calculateDelayFromSeconds(messageDisplayTimeSeconds)) // Wait the configured period of time before hiding the message
-          id = setInterval(slideDown, 10); // Begin the slideUp animation at 10 milliseconds.
+          id = setInterval(slideDown, 10); // Begin the slideDown animation at 10 milliseconds.
         } else {
           pos--;                        // Adjust the position upward
           opp = opp + .01               // Adjust the opacity value
