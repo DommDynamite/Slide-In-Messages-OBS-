@@ -1,0 +1,14 @@
+#AnimationContainer {
+  width: 1200px;
+  height: 200px;
+  position: relative;
+  align-content: center;
+}
+
+#AnimatedText {
+  text-align: center;
+  width: 1200px;
+  height: 100px;
+  position: absolute;
+  opacity: 0;
+}
