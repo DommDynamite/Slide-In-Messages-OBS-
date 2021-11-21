@@ -23,7 +23,7 @@ $(document).ready(function(){
   
     elem.textContent = messages[currentMessage];
     
-    // Begin the animation by calling the nested function slideDown to run every 10 milliseconds, creating the slide down part of the animation.
+    // Begin the animation by calling the nested function slideUp to run every 10 milliseconds, creating the slide up part of the animation.
     var id = setInterval(slideUp, 10);
     
     function slideUp () {
