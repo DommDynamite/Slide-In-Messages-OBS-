@@ -1,10 +1,8 @@
 // You can add messages to this list to include them in the animation rotation
 const messages = [
-     "EVENT: Community Night Nov. 27th, check discord!"
-    ,"Don't forget to follow if you are having a good time!"
-    ,"Try out the channel point items and viewer commands!"
-    ,"Check out the Strange Planet Podcast! command: !podcast"
-    ,"Get your hands on some Dynamite Merch! command: !merch"
+     "Test Message One"
+    ,"Test Message Two"
+    ,"Test Message Three"
 ];
 
 // The delay between the start of each message
